@@ -1,0 +1,133 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+.body {
+    background-color: rgb(37, 37, 37);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.top_bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 4000px;
+    height: 35px;
+    color: white;
+    z-index:9; 
+
+    font-family: ubuntu;
+    background-color: rgb(75, 75, 75);
+}
+
+
+
+.side_bar {
+    position: fixed;
+    top: 35px;
+    left: 0px;
+    width: 250px;
+    height: 3000px;
+    color: white;
+    z-index:8; 
+
+    font-family: ubuntu;
+    background-color: rgb(64, 64, 64);
+}
+
+
+.top_bar_text {
+    position: absolute;
+    font-family: ubuntu;
+    color: white;
+    top: 7px;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.top_bar_text:hover {
+    transition: .5s;
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+.sub_pages_title {
+    position: absolute;
+    font-family: ubuntu;
+    color:white;
+    top: 10px;
+    left: 10px;
+}
+
+
+.side_bar_text {
+position: absolute;   
+    left: 101.5px;
+    border-radius: 5px;
+    background-color: rgb(64, 64, 64);
+    transition: .5s;
+    cursor:pointer;
+}
+
+
+.side_bar_text:hover {
+    transition: .5s;
+        
+    
+    background-color: rgb(75, 75, 75);
+    }
+
+
+
+.footer {
+    position:absolute;
+    width: 4000px;
+    height: 70px;
+    left: 0px;
+
+    background-color: rgb(75, 75, 75);
+
+}
+
+
+.footer_title {
+font-family: ubuntu;
+color:white;
+left: 260px;
+top: 12.5px;
+font-size: 40px;
+position: absolute;
+
+}
+
+.button {
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: ubuntu;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.button:hover {
+  
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 37, 37);
+
+
+    transition: .5s;
+}
+
